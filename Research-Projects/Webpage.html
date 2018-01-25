@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phil's Webpage</title>
+    <style>
+        /*
+        Eliminates all padding or margins inside the browser.
+        */
+        {
+            margin: 0;
+            padding: 0;
+        }
+        /*
+        This is where we set the size of the google map.
+         */
+        #map
+        {
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div id = "map"> </div>
+<script>
+    // Begin the javascript code in the script tag.
+    function initMap()
+    {
+        var location = {lat: 41.6611, lng: -91.5301};
+        var map = new google.maps.Map(document.getElementById("map"), {zoom: 10, center: location});
+
+        //The following code is to input a pin on where we are in the world.
+        var marker = new google.maps.Marker({
+            position: location,
+            map: map
+        });
+    }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-l4mDaTvauie7_l4IpI9tuiRJzYjiP7I&callback=initMap">
+    // This is the second script that is going to allow us to use the map.
+</script>
+
+</body>
+</html>
