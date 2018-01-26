@@ -28,12 +28,12 @@
     // Begin the javascript code in the script tag.
     function initMap()
     {
-        var location = {lat: 41.6611, lng: -91.5301};
-        var map = new google.maps.Map(document.getElementById("map"), {zoom: 10, center: location});
+        var iowaCity = {lat: 41.6611, lng: -91.5301};
+        var map = new google.maps.Map(document.getElementById("map"), {zoom: 10, center: iowaCity});
 
         //The following code is to input a pin on where we are in the world.
         var marker = new google.maps.Marker({
-            position: location,
+            position: iowaCity,
             map: map
         });
 

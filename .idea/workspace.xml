@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31d445e-3b02-48a2-b28f-f63dc041b377" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Research-Projects/Test.html" />
       <change beforePath="$PROJECT_DIR$/Research-Projects/Webpage.html" afterPath="$PROJECT_DIR$/Research-Projects/Webpage.html" />
-      <change beforePath="$PROJECT_DIR$/helloWorld.html" afterPath="$PROJECT_DIR$/helloWorld.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Webpage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Webpage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Research-Projects/Webpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="663">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Research-Projects/Test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -67,6 +76,7 @@
         <option value="$PROJECT_DIR$/practiceFunction.html" />
         <option value="$PROJECT_DIR$/helloWorld.html" />
         <option value="$PROJECT_DIR$/Research-Projects/Webpage.html" />
+        <option value="$PROJECT_DIR$/Research-Projects/Test.html" />
       </list>
     </option>
   </component>
@@ -163,12 +173,12 @@
       <updated>1513653782406</updated>
       <workItem from="1513653784356" duration="10745000" />
       <workItem from="1514053371244" duration="2991000" />
-      <workItem from="1516901563322" duration="6627000" />
+      <workItem from="1516901563322" duration="7441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20363000" />
+    <option name="totallyTimeSpent" value="21177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -247,8 +257,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Research-Projects/Webpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="663">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research-Projects/Test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
