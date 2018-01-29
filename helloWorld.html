@@ -1,45 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>TITLE ON THE windowwwww tabbbadoo!</title>
-</head>
-<body>
-
-<script type="text/javascript">
-    // This is where the javascript code will go.
-    // So all the htmls files use a scripts, one of them is javascript.
-
-    // Variables are case sensitive in javascript.
-    //Variables can only start with a letter or an underscore.
-    // Variables cannot have any symbols in the name.
-    var x =  -21.1;
-    document.write(x);
-
-    // String variable example.
-    var y = "Hello pabangan said, \"This is his first program in javascript! \" ";
-    document.write(y);
-
-    // Testing concatenation
-    var name = "pabangan";
-    var age = "21";
-    document.write(name + " is " + age + ". ");
-
-    /**
-     * This is a Popup that is called below in the button.
-     */
-    function test()
-    {
-        alert("Ouchh!!!")
-    }
-
-</script>
-
-<form>
-    <!--This is a comment-->
-    <!--Below is how you create button, with text, and an event handler.u-->
-    <input type="button" value="touch me" onclick="test()">
-</form>
-
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Menu Tutorial</title>
+        <link rel="stylesheet" href="Research-Projects/style.css">
+    </head>
+    <body>
+        <script type="text/javascript">
+            /**
+            *This is a Popup that is called below in the button.
+            */
+            function test()
+            {
+                alert("Pop-up button")
+            }
+        </script>
+        <nav>
+            <ul>
+                <li><input type="button" value="Option 1" onclick="test()"></li>
+                <li><input type="button" value="Option 2" onclick="test()"></li>
+                <li><input type="button" value="Option 3" onclick="test()"></li>
+                <li><input type="button" value="Option 4" onclick="test()"></li>
+                <li><input type="button" value="Option 5" onclick="test()"></li>
+                <li><input type="button" value="Option 6" onclick="test()"></li>
+            </ul>
+        </nav>
+    </body>
 </html>
