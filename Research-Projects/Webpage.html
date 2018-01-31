@@ -11,6 +11,7 @@
             height: 500px;
             width: 100%;
         }
+
         /* Optional: Makes the sample page fill the window. */
         html, body {
             height: 100%;
@@ -32,17 +33,15 @@
             center: iowaCity,
             zoom: 7
         });
-
-
-        var coordInfoWindow = new google.maps.InfoWindow();
-        coordInfoWindow.setContent(createInfoWindowContent(iowaCity, map.getZoom()));
-        coordInfoWindow.setPosition(iowaCity);
-        coordInfoWindow.open(map);
-
-        map.addListener('zoom_changed', function() {
+            var coordInfoWindow = new google.maps.InfoWindow();
             coordInfoWindow.setContent(createInfoWindowContent(iowaCity, map.getZoom()));
+            coordInfoWindow.setPosition(iowaCity);
             coordInfoWindow.open(map);
-        }); 
+
+            map.addListener('zoom_changed', function () {
+                coordInfoWindow.setContent(createInfoWindowContent(iowaCity, map.getZoom()));
+                coordInfoWindow.open(map);
+            });
     }
 
     var TILE_SIZE = 256;
@@ -92,8 +91,7 @@
     /**
      * This is a Popup that is called below in the button.
      */
-    function test()
-    {
+    function test() {
         alert("This will be a function that changes the icon in google API.");
     }
 
