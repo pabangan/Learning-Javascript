@@ -10,21 +10,24 @@
             zoom: function (level) {
                 if(level)
                 {
-                    this.gMap.setZoom(level);
+                    this.gMap.zoom(level);
                 }
                 else
                 {
                     return this.gMap.getZoom();
                 }
+            },
+            _on: function (event, callback) {
+                var self = this;
+                google.maps.event.addListener(this.gMap, event, callback);
             }
         };
-
         return Mapster;
     }());
 
     Mapster.create = function (element, opts) {
         return new Mapster(element, opts);
-    }
+    };
 
     window.Mapster = Mapster;
 

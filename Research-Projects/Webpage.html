@@ -42,6 +42,12 @@
                 coordInfoWindow.setContent(createInfoWindowContent(iowaCity, map.getZoom()));
                 coordInfoWindow.open(map);
             });
+
+        var marker = new google.maps.Marker({
+            position: iowaCity,
+            map: map,
+            title: 'Hello World!'
+        });
     }
 
     var TILE_SIZE = 256;
