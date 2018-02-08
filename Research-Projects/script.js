@@ -10,16 +10,22 @@
         map.zoom(10);
         alert(map.zoom());
 
-        map._on('click', function(){
+        google.maps.event.addListener(map.gMap, 'click', function (e){
             alert('click');
+            console.log(e);
         });
 
         /*
         var marker = new google.maps.Marker({
-        position: iowaCity,
-        map: map.gMap,
-        title: 'Hello World!'
-    });
-         */
+            position: iowaCity,
+            map: map.gMap,
+            icon: {
+                path: google.maps.SymbolPath.CIRCLE,
+                scale: 10
+            }
+        });
+        */
+
+        map.addMarker(iowaCity);
 
 }(window, window.Mapster));
