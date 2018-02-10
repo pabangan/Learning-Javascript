@@ -43,3 +43,8 @@ ul li a{
 ul li a:hover{
     color: red;
 }
+
+table, th, td{
+    border: solid blue;
+    border-collapse: collapse;
+}

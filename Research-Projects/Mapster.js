@@ -4,6 +4,11 @@
 
 var gMap;
 
+/**
+ * A function that:
+ * Initializes gMap.
+ *
+ */
 (function (window, google) {
 
     var Mapster = (function () {
@@ -22,41 +27,22 @@ var gMap;
                 {
                     return this.gMap.getZoom();
                 }
-            },
-            
-            /*
-            _on: function(event, callback)
-            {
-                var self = this;
-                google.maps.event.addListener(this.gMap, event, function (e) {
-                    callback.call(self,e);                    
-                });
-            },
-            */
-
-            addMarker: function (lat, lng) {
-                this._createMarker(lat, lng);
-            },
-            
-            _createMarker: function (lat, lng) {
-                var opts = {
-                    position: {
-                                    lat: lat,
-                                    lng: lng
-                              },
-                    map: this.gMap
-                };
-                return new google.maps.Marker(opts);
             }
-            
         };
         return Mapster;
     }());
 
+    // This is a function that creates a whole map object. Will only be used once in this case, because I only have
+    // one map.
     Mapster.create = function (element, opts) {
         return new Mapster(element, opts);
     };
+    /**
+     * Interesting... So I'm not sure but I think that a self invoking function automatically calls itself and then,
+     * interestingly, returns a value.
+     */
 
+    // What "Mapster" is, is the entire entity that contains a map object and the characteristics of it... I think.
     window.Mapster = Mapster;
 
 }(window, google));

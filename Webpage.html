@@ -118,8 +118,13 @@
         mark = new google.maps.Marker({
           position: latlng,
           map: map,
-          title: 'Hello Devenport!'
+          title: 'Hello Devenport!',
+          icon: {
+                path: google.maps.SymbolPath.CIRCLE,
+                scale: 30
+           }
         });
+        mark.setOptions({'opacity': 0.5})
 
 	}
 

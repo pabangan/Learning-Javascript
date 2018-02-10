@@ -1,8 +1,7 @@
 (function (window, google, mapster) {
 
-    var iowaCity = new google.maps.LatLng(41.6611, -91.5301);
     mapster.MAP_OPTIONS = {
-        center: iowaCity,
+        center: iowaCity.mapPosition,
         zoom: 7
     };
 
