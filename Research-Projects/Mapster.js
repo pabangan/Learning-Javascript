@@ -1,9 +1,15 @@
+// This is where the map variable is declared. The name of the actual google map is call "gMap".
+// Learned that self invoking functions are something are functions that occur automatically without being called.
+// I'll probably try to stay away from the self invoking functions until I know their full functionality.
+
+var gMap;
+
 (function (window, google) {
 
     var Mapster = (function () {
         // Constructor in the self invoking function.
         function Mapster(element, opts) {
-            this.gMap = new google.maps.Map(element, opts);
+            gMap = new google.maps.Map(element, opts);
         }
 
         Mapster.prototype = {

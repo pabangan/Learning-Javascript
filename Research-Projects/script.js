@@ -1,3 +1,5 @@
+var map;
+
 (function (window, mapster) {
 
     // Map options
@@ -6,7 +8,7 @@
 
         // The map itself.
         var element = document.getElementById('map-canvas');
-        var map = mapster.create(element, mapOPTIONS);
+        map = mapster.create(element, mapOPTIONS);
         map.zoom(10);
         alert(map.zoom());
 
@@ -26,6 +28,22 @@
         });
         */
 
-        map.addMarker(iowaCity);
+    /**
+     * This is a Popup that is called below in the button.
+     */
+    function test2() {
+        alert("TEST NUMBER 222222.");
+    }
+
+       // map.addMarker(iowaCity);
 
 }(window, window.Mapster));
+
+/**
+ * This is a Popup that is called below in the button.
+ */
+function test2() {
+    alert("TEST NUMBER 222222.");
+}
+
+map.addMarker(iowaCity);
