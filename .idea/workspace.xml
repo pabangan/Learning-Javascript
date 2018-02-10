@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31d445e-3b02-48a2-b28f-f63dc041b377" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Research-Projects/Markers.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Research-Projects/Mapster.js" afterPath="$PROJECT_DIR$/Research-Projects/Mapster.js" />
+      <change beforePath="$PROJECT_DIR$/Research-Projects/Markers.js" afterPath="$PROJECT_DIR$/Research-Projects/Markers.js" />
       <change beforePath="$PROJECT_DIR$/Research-Projects/Test.html" afterPath="$PROJECT_DIR$/Research-Projects/Test.html" />
       <change beforePath="$PROJECT_DIR$/Research-Projects/map-options.js" afterPath="$PROJECT_DIR$/Research-Projects/map-options.js" />
       <change beforePath="$PROJECT_DIR$/Research-Projects/script.js" afterPath="$PROJECT_DIR$/Research-Projects/script.js" />
-      <change beforePath="$PROJECT_DIR$/Research-Projects/style2.css" afterPath="$PROJECT_DIR$/Research-Projects/style2.css" />
       <change beforePath="$PROJECT_DIR$/Webpage.html" afterPath="$PROJECT_DIR$/Webpage.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,8 +24,8 @@
       <file leaf-file-name="Webpage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Research-Projects/Webpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="38" column="38" lean-forward="false" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+            <state relative-caret-position="135">
+              <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -36,18 +34,18 @@
       <file leaf-file-name="Test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Research-Projects/Test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Markers.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Research-Projects/Markers.js">
+      <file leaf-file-name="Mapster.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Research-Projects/Mapster.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+            <state relative-caret-position="799">
+              <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -55,11 +53,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Webpage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Webpage.html">
+      <file leaf-file-name="Markers.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Research-Projects/Markers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="116" column="44" lean-forward="false" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="44" />
+            <state relative-caret-position="408">
+              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Research-Projects/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map-options.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Research-Projects/map-options.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Research-Projects/style2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -99,11 +129,11 @@
         <option value="$PROJECT_DIR$/Research-Projects/style.css" />
         <option value="$PROJECT_DIR$/Research-Projects/Webpage.html" />
         <option value="$PROJECT_DIR$/Research-Projects/Mapster.js" />
-        <option value="$PROJECT_DIR$/Webpage.html" />
         <option value="$PROJECT_DIR$/Research-Projects/style2.css" />
+        <option value="$PROJECT_DIR$/Webpage.html" />
+        <option value="$PROJECT_DIR$/Research-Projects/Test.html" />
         <option value="$PROJECT_DIR$/Research-Projects/map-options.js" />
         <option value="$PROJECT_DIR$/Research-Projects/script.js" />
-        <option value="$PROJECT_DIR$/Research-Projects/Test.html" />
         <option value="$PROJECT_DIR$/Research-Projects/Markers.js" />
       </list>
     </option>
@@ -219,12 +249,12 @@
       <workItem from="1517689391111" duration="15059000" />
       <workItem from="1517848298170" duration="12875000" />
       <workItem from="1517948136520" duration="6975000" />
-      <workItem from="1518289430657" duration="12057000" />
+      <workItem from="1518289430657" duration="17198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87691000" />
+    <option name="totallyTimeSpent" value="92832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -583,6 +613,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Webpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Research-Projects/style2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -591,60 +629,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Research-Projects/Mapster.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Research-Projects/map-options.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Research-Projects/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Research-Projects/Webpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="38" column="38" lean-forward="false" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        <state relative-caret-position="135">
+          <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Research-Projects/Test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Webpage.html">
+    <entry file="file://$PROJECT_DIR$/Research-Projects/map-options.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="116" column="44" lean-forward="false" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research-Projects/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research-Projects/Mapster.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Research-Projects/Markers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        <state relative-caret-position="408">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

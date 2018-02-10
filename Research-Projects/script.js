@@ -14,15 +14,6 @@
             console.log(e);
         });
 
-    /**
-     * This is a Popup that is called below in the button.
-     */
-    function test2() {
-        alert("TEST NUMBER 222222.");
-    }
-
-       // map.addMarker(iowaCity);
-
 }(window, window.Mapster));
 
 /**

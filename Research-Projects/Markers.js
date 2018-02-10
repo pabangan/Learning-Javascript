@@ -1,26 +1,6 @@
 // This is going to be file that contains functions for creating a marker.
 // Also contains City Data.
 
-/**
- * Function for creating a marker based off of city, and size of marker as input parameters.
- */
-function addMarker(latlng, size)
-{
-    "use strict";
-    var mark;
-    mark = new google.maps.Marker({
-        path: google.maps.SymbolPath.CIRCLE,
-        icon: {
-            path: google.maps.SymbolPath.CIRCLE,
-            scale: size
-        },
-        title: 'Hello',
-        position: latlng,
-        map: gMap
-    });
-    mark.setOptions({'opacity': 0.5});
-}
-
 var desMoines =
     {
         name:"Des Moines",
@@ -34,6 +14,7 @@ var desMoines =
         sizeDensity: 30,
         sizeArea: 20,
         sizeTemp: 10,
+        // The map should still be able show this, even if the script is at the end.
         marker: new google.maps.Marker({
             title: 'Hello',
             position: {lat: 41.619549, lng: -93.598022},
@@ -53,11 +34,42 @@ var iowaCity =
         sizePopulation: 40,
         sizeDensity: 30,
         sizeArea: 20,
-        sizeTemp: 10
+        sizeTemp: 10,
+        marker: new google.maps.Marker({
+            title: 'Hello',
+            position: {lat: 41.6611, lng: -91.5301},
+            map: gMap
+        })
     };
 
 var allCities = [desMoines, iowaCity];
 
+
+/**
+ * Function for creating a marker based off of city, and size of marker as input parameters.
+function addMarker(latlng, size, city)
+{
+    "use strict";
+    //"this" will refer to the city array.
+    city.marker = new google.maps.Marker({
+        path: google.maps.SymbolPath.CIRCLE,
+        icon: {
+            path: google.maps.SymbolPath.CIRCLE,
+            scale: size
+        },
+        title: 'Hello',
+        position: latlng,
+        map: gMap
+    });
+    city.marker.setOptions({'opacity': 0.5});
+}*/
+
+function clearMarker() {
+
+}
+
+
+/*
 function allCityMarkers(option)
 {
     gMap
@@ -80,3 +92,4 @@ function allCityMarkers(option)
             alert("Error Occurred!")
     }
 }
+*/

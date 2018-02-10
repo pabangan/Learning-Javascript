@@ -14,17 +14,17 @@
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-l4mDaTvauie7_l4IpI9tuiRJzYjiP7I&callback=initMap">
     </script>
-    <script src="Markers.js"></script>
     <script src="Mapster.js"></script> <!-- I think this is where functionality events occur.-->
     <script src="map-options.js"></script> <!--This is where the configurations for the map happen. -->
     <script src="script.js"></script> <!--The main script file, and I think this is where MAP connects to website. -->
+    <script src="Markers.js"></script>
 
     <nav>
         <ul>
             <li><input type="button" value="Population" onclick="allCityMarkers(1)"></li>
             <li><input type="button" value="Density" onclick="allCityMarkers(2)"></li>
-            <li><input type="button" value="Area" onclick="addMarker(iowaCity.mapPosition, iowaCity.sizeArea)"></li>
-            <li><input type="button" value="Temperature (FEB)" onclick="addMarker(iowaCity.mapPosition, iowaCity.sizeTemp)"></li>
+            <li><input type="button" value="Area" onclick="addMarker(desMoines.mapPosition, desMoines.sizeArea, desMoines)"></li>
+            <li><input type="button" value="Temperature (FEB)" onclick="addMarker(desMoines.mapPosition, desMoines.sizeTemp, desMoines)"></li>
         </ul>
     </nav>
 
