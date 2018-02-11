@@ -6,7 +6,7 @@
         // The map itself.
         var element = document.getElementById('map-canvas');  // Element, is what the map will load inside of.
         map = mapster.create(element, mapOPTIONS);
-        map.zoom(10);
+        map.zoom(0);
         alert(map.zoom());
 
         google.maps.event.addListener(map.gMap, 'click', function (e){
