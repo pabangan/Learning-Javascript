@@ -9,16 +9,10 @@
         map.zoom(0);
         alert(map.zoom());
 
+        //This listener isn't working anymore
         google.maps.event.addListener(map.gMap, 'click', function (e){
             alert('click');
             console.log(e);
         });
 
 }(window, window.Mapster));
-
-/**
- * This is a Popup that is called below in the button.
- */
-function test2() {
-    alert("TEST NUMBER 222222.");
-}
