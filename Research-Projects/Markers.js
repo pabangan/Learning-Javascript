@@ -1,5 +1,9 @@
 // This is going to be file that contains functions for creating a marker.
 // Also contains City Data.
+/**
+ * Just learned you can use city DOT operator for the previous variables, but NOT for the current var.
+ *
+ **/
 
 var desMoines =
     {
@@ -31,7 +35,7 @@ var cedarRapids =
         lat: 41.977879,
         long: -91.665627,
         mapPosition: new google.maps.LatLng(41.977879, -91.665627), // For some reason, cant use this.lat || this.long
-        sizePopulation: 40,
+        sizePopulation: (131118/desMoines.population)*40,
         sizeDensity: 30,
         sizeArea: 20,
         sizeTemp: 10,
@@ -52,7 +56,7 @@ var davenport =
         lat: 41.5219,
         long: -90.5758,
         mapPosition: new google.maps.LatLng(41.5219, -90.5758), // For some reason, cant use this.lat || this.long
-        sizePopulation: (this.population/desMoines.population*40),
+        sizePopulation: (102608/desMoines.population)*40,
         sizeDensity: 30,
         sizeArea: 20,
         sizeTemp: 10,
@@ -73,7 +77,7 @@ var siouxCity =
         lat: 42.4961,
         long: -96.4083,
         mapPosition: new google.maps.LatLng(42.4961, -96.4083), // For some reason, cant use this.lat || this.long
-        sizePopulation: 40,
+        sizePopulation: (82105/desMoines.population)*40,
         sizeDensity: 30,
         sizeArea: 20,
         sizeTemp: 10,
@@ -94,7 +98,7 @@ var iowaCity =
         lat: 41.6611,
         long: -91.5301,
         mapPosition: new google.maps.LatLng(41.6611, -91.5301),
-        sizePopulation: 40,
+        sizePopulation: (74384/desMoines.population)*40,
         sizeDensity: 30,
         sizeArea: 20,
         sizeTemp: 10,
@@ -114,7 +118,7 @@ var waterloo =
         lat: 42.4944,
         long: -92.3389,
         mapPosition: new google.maps.LatLng(42.4944, -92.3389),
-        sizePopulation: 40,
+        sizePopulation: (67940/desMoines.population)*40,
         sizeDensity: 30,
         sizeArea: 20,
         sizeTemp: 10,
@@ -134,7 +138,7 @@ var ames =
         lat: 42.0317,
         long: -93.6167,
         mapPosition: new google.maps.LatLng(42.0317, -93.6167),
-        sizePopulation: 40,
+        sizePopulation: (66190/desMoines.population)*40,
         sizeDensity: 30,
         sizeArea: 20,
         sizeTemp: 10,
@@ -154,7 +158,7 @@ var westDesMoines =
         lat: 41.577210,
         long: -93.711330,
         mapPosition: new google.maps.LatLng(41.577210, -93.711330),
-        sizePopulation: 40,
+        sizePopulation: (63325/desMoines.population)*40,
         sizeDensity: 30,
         sizeArea: 20,
         sizeTemp: 10,
@@ -174,7 +178,7 @@ var councilBluffs =
         lat: 41.2617,
         long: -95.8650,
         mapPosition: new google.maps.LatLng(41.2617, -95.8650),
-        sizePopulation: 40,
+        sizePopulation: (62245/desMoines.population)*40,
         sizeDensity: 30,
         sizeArea: 20,
         sizeTemp: 10,
@@ -194,7 +198,7 @@ var urbandale =
         lat: 41.6266667,
         long: -93.7119444,
         mapPosition: new google.maps.LatLng(41.6266667, -93.7119444),
-        sizePopulation: 40,
+        sizePopulation: (43150/desMoines.population)*40,
         sizeDensity: 30,
         sizeArea: 20,
         sizeTemp: 10,
@@ -259,3 +263,6 @@ function allCityMarkers(option) {
             alert("Error Occurred!")
     }
 }
+
+
+
