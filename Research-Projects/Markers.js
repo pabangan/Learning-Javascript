@@ -14,9 +14,9 @@ var desMoines =
         lat: 41.619549,
         long: -93.598022,
         mapPosition: new google.maps.LatLng(41.619549, -93.598022), // For some reason, cant use this.lat || this.long
-        sizePopulation: 10,
+        sizePopulation: 40,
         sizeDensity: 30,
-        sizeArea: 20,
+        sizeArea: 40,
         sizeTemp: 10,
         // The map should still be able show this, even if the script is at the end.
         marker: new google.maps.Marker({
@@ -37,7 +37,7 @@ var cedarRapids =
         mapPosition: new google.maps.LatLng(41.977879, -91.665627), // For some reason, cant use this.lat || this.long
         sizePopulation: (131118/desMoines.population)*40,
         sizeDensity: 30,
-        sizeArea: 20,
+        sizeArea: (63.1/desMoines.area)*40,
         sizeTemp: 10,
         // The map should still be able show this, even if the script is at the end.
         marker: new google.maps.Marker({
@@ -58,7 +58,7 @@ var davenport =
         mapPosition: new google.maps.LatLng(41.5219, -90.5758), // For some reason, cant use this.lat || this.long
         sizePopulation: (102608/desMoines.population)*40,
         sizeDensity: 30,
-        sizeArea: 20,
+        sizeArea: (62.8/desMoines.area)*40,
         sizeTemp: 10,
         // The map should still be able show this, even if the script is at the end.
         marker: new google.maps.Marker({
@@ -79,7 +79,7 @@ var siouxCity =
         mapPosition: new google.maps.LatLng(42.4961, -96.4083), // For some reason, cant use this.lat || this.long
         sizePopulation: (82105/desMoines.population)*40,
         sizeDensity: 30,
-        sizeArea: 20,
+        sizeArea: (54.8/desMoines.area)*40,
         sizeTemp: 10,
         // The map should still be able show this, even if the script is at the end.
         marker: new google.maps.Marker({
@@ -100,7 +100,7 @@ var iowaCity =
         mapPosition: new google.maps.LatLng(41.6611, -91.5301),
         sizePopulation: (74384/desMoines.population)*40,
         sizeDensity: 30,
-        sizeArea: 20,
+        sizeArea: (24.2/desMoines.area)*40,
         sizeTemp: 10,
         marker: new google.maps.Marker({
             title: 'Hello Iowa City',
@@ -120,7 +120,7 @@ var waterloo =
         mapPosition: new google.maps.LatLng(42.4944, -92.3389),
         sizePopulation: (67940/desMoines.population)*40,
         sizeDensity: 30,
-        sizeArea: 20,
+        sizeArea: (60.7/desMoines.area)*40,
         sizeTemp: 10,
         marker: new google.maps.Marker({
             title: 'Hello Iowa City',
@@ -140,7 +140,7 @@ var ames =
         mapPosition: new google.maps.LatLng(42.0317, -93.6167),
         sizePopulation: (66190/desMoines.population)*40,
         sizeDensity: 30,
-        sizeArea: 20,
+        sizeArea: (21.6/desMoines.area)*40,
         sizeTemp: 10,
         marker: new google.maps.Marker({
             title: 'Hello Iowa City',
@@ -160,7 +160,7 @@ var westDesMoines =
         mapPosition: new google.maps.LatLng(41.577210, -93.711330),
         sizePopulation: (63325/desMoines.population)*40,
         sizeDensity: 30,
-        sizeArea: 20,
+        sizeArea: (26.8/desMoines.area)*40,
         sizeTemp: 10,
         marker: new google.maps.Marker({
             title: 'Hello Iowa City',
@@ -180,7 +180,7 @@ var councilBluffs =
         mapPosition: new google.maps.LatLng(41.2617, -95.8650),
         sizePopulation: (62245/desMoines.population)*40,
         sizeDensity: 30,
-        sizeArea: 20,
+        sizeArea: (37.4/desMoines.area)*40,
         sizeTemp: 10,
         marker: new google.maps.Marker({
             title: 'Hello Iowa City',
@@ -200,7 +200,7 @@ var urbandale =
         mapPosition: new google.maps.LatLng(41.6266667, -93.7119444),
         sizePopulation: (43150/desMoines.population)*40,
         sizeDensity: 30,
-        sizeArea: 20,
+        sizeArea: (20.7/desMoines.area)*40,
         sizeTemp: 10,
         marker: new google.maps.Marker({
             title: 'Hello Iowa City',
